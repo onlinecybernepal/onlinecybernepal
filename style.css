@@ -377,7 +377,17 @@ ABOUT
 }
 
 .navbar-brand img{
+    .logo-img{
     height:55px;
+}
+
+.logo-text h4{
+    font-size:18px;
+}
+
+.logo-text p{
+    font-size:11px;
+}
 }
 
 .btn-lg{

@@ -58,15 +58,15 @@ box-shadow:0 12px 25px rgba(0,0,0,.25);
 }
 
 .hero{
-    min-height:100vh;
+    min-height:90vh;
     display:flex;
     align-items:center;
     justify-content:center;
     text-align:center;
     color:white;
 
-    background-image:
-      linear-gradient(rgba(5,15,35,.75), rgba(5,15,35,.75))
+    background:
+        linear-gradient(rgba(11,45,91,.75), rgba(11,45,91,.75)),
         url("hero.jpg");
 
     background-size:cover;

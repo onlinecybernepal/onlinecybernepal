@@ -33,6 +33,21 @@ html{
     line-height:1.1;
 }
 
+.logo-text h4{
+    margin:0;
+    font-size:26px;
+    font-weight:800;
+    color:#0B2D5B !important;
+    letter-spacing:.5px;
+}
+
+.logo-text p{
+    margin:2px 0 0;
+    font-size:14px;
+    font-weight:600;
+    color:#D72638 !important;
+}
+
    .navbar .logo-text h4{
     color:#0B2D5B;
 }

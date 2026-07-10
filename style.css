@@ -49,7 +49,7 @@ body{
 }
 
 .hero{
-    min-height:90vh;
+    min-height:100vh;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -57,7 +57,7 @@ body{
     color:white;
 
     background-image:
-        linear-gradient(rgba(11,45,91,.80), rgba(11,45,91,.80)),
+      linear-gradient(rgba(5,15,35,.75), rgba(5,15,35,.75))
         url("hero.jpg");
 
     background-size:cover;
@@ -65,13 +65,10 @@ body{
     background-repeat:no-repeat;
 }
 
-.hero h1{
-
-    font-size:65px;
-
-    font-weight:700;
-
-    line-height:1.2;
+   .hero h1{
+font-size:72px;
+font-weight:800;
+line-height:1.15;
 
 }
 

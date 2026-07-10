@@ -60,7 +60,7 @@ body{
 
     background:
         linear-gradient(rgba(11,45,91,.80), rgba(11,45,91,.80)),
-        background-image: url("hero.jpg");
+        url("hero.jpg");
 
     background-size:cover;
     background-position:center;

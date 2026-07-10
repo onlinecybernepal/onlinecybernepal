@@ -39,13 +39,22 @@ body{
     color:#D72638 !important;
 }
 
-.btn-danger{
-    background:#D72638;
-    border:none;
+.btn{
+transition:.3s ease;
 }
 
-.btn-danger:hover{
-    background:#0B2D5B;
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 25px rgba(0,0,0,.25);
+}
+
+.btn{
+transition:.3s ease;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 12px 25px rgba(0,0,0,.25);
 }
 
 .hero{

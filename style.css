@@ -1,14 +1,11 @@
-body{
+html{
+    scroll-behavior:smooth;
+}body{
     font-family:'Poppins',sans-serif;
     background:#f8f9fa;
     color:#333;
     overflow-x:hidden;
 }/* Google Font */
-body{
-    font-family:'Poppins',sans-serif;
-    background:#f8f9fa;
-    overflow-x:hidden;
-}
 
 /* Reset */
 
@@ -26,7 +23,8 @@ body{
 }
 
 .navbar-brand img{
-    height:75px;
+  height:auto;
+max-height:70px; 
 }
 
 .nav-link{
@@ -44,16 +42,7 @@ transition:.3s ease;
 }
 
 .btn:hover{
-transform:translateY(-3px);
-box-shadow:0 12px 25px rgba(0,0,0,.25);
-}
-
-.btn{
-transition:.3s ease;
-}
-
-.btn:hover{
-transform:translateY(-3px);
+transform:translateY(-10px) scale(1.02);
 box-shadow:0 12px 25px rgba(0,0,0,.25);
 }
 
@@ -73,11 +62,8 @@ box-shadow:0 12px 25px rgba(0,0,0,.25);
     background-repeat:no-repeat;
 }
 
-   .hero h1{
-font-size:72px;
-font-weight:800;
-line-height:1.15;
-
+  .hero h1{
+font-size:clamp(2.5rem,5vw,4.8rem);
 }
 
 .hero p{
@@ -136,7 +122,7 @@ line-height:1.15;
 }
 
 .service-card:hover{
-    transform:translateY(-10px);
+   transform:translateY(-10px) scale(1.02);
 }
 
 .service-card .icon{
@@ -191,7 +177,7 @@ ALL SERVICES
 }
 
 .category-card:hover{
-    transform:translateY(-8px);
+   transform:translateY(-10px) scale(1.02);
 }
 
 .category-card h3{
@@ -240,7 +226,7 @@ WHY CHOOSE US
 }
 
 .why-card:hover{
-    transform:translateY(-8px);
+   transform:translateY(-10px) scale(1.02);
 }
 
 .why-card i{
@@ -486,4 +472,13 @@ iframe{
     background:#fff;
     color:#dc3545;
     transform:translateY(-5px);
+}
+input:focus,
+textarea:focus,
+select:focus{
+
+border-color:#D72638!important;
+
+box-shadow:0 0 0 .2rem rgba(215,38,56,.25)!important;
+
 }

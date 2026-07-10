@@ -492,3 +492,54 @@ border-color:#D72638!important;
 box-shadow:0 0 0 .2rem rgba(215,38,56,.25)!important;
 
 }
+
+/* ==========================
+TOP BAR
+========================== */
+
+.top-bar{
+
+    background:#0B2D5B;
+    color:white;
+    padding:10px 0;
+    font-size:14px;
+
+}
+
+.top-left span{
+
+    margin-right:20px;
+
+}
+
+.top-left i{
+
+    color:#dc3545;
+    margin-right:6px;
+
+}
+
+.top-right a{
+
+    color:white;
+    margin-left:18px;
+    font-size:18px;
+    transition:.3s;
+
+}
+
+.top-right a:hover{
+
+    color:#dc3545;
+
+}
+
+@media(max-width:768px){
+
+.top-bar{
+
+display:none;
+
+}
+
+}

@@ -48,8 +48,6 @@ body{
     background:#0B2D5B;
 }
 
-/* Hero */
-
 .hero{
     min-height:90vh;
     display:flex;
@@ -60,12 +58,11 @@ body{
 
     background:
         linear-gradient(rgba(11,45,91,.80), rgba(11,45,91,.80)),
-        url("../images/hero.jpg");
+        url("hero.jpeg");
 
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-
 }
 
 .hero h1{

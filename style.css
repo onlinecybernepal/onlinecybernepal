@@ -58,7 +58,7 @@ body{
 
     background:
         linear-gradient(rgba(11,45,91,.80), rgba(11,45,91,.80)),
-        url("hero.jpeg");
+        url("hero.jpg");
 
     background-size:cover;
     background-position:center;

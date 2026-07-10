@@ -15,18 +15,20 @@ html{
     box-sizing:border-box;
 }
 
-/* Navbar */
+
+/* ==========================
+   NAVBAR
+========================== */
 
 .navbar{
     padding:15px 0;
     transition:.3s;
+    background:#fff;
 }
-
-.navbar-brand img{
-/* Logo */
 
 .logo-img{
     height:70px;
+    width:auto;
 }
 
 .logo-text{
@@ -37,22 +39,14 @@ html{
     margin:0;
     font-size:26px;
     font-weight:800;
-    color:#0B2D5B !important;
+    color:#0B2D5B;
     letter-spacing:.5px;
 }
 
 .logo-text p{
-    margin:2px 0 0;
+    margin:3px 0 0;
     font-size:14px;
     font-weight:600;
-    color:#D72638 !important;
-}
-
-   .navbar .logo-text h4{
-    color:#0B2D5B;
-}
-
-.navbar .logo-text p{
     color:#D72638;
 }
 
@@ -60,6 +54,7 @@ html{
     color:#0B2D5B !important;
     font-weight:600;
     margin-left:18px;
+    transition:.3s;
 }
 
 .nav-link:hover{
@@ -67,12 +62,12 @@ html{
 }
 
 .btn{
-transition:.3s ease;
+    transition:.3s ease;
 }
 
 .btn:hover{
-transform:translateY(-10px) scale(1.02);
-box-shadow:0 12px 25px rgba(0,0,0,.25);
+    transform:translateY(-3px);
+    box-shadow:0 12px 25px rgba(0,0,0,.25);
 }
 
 .hero{
@@ -362,11 +357,11 @@ ABOUT
     transform:scale(1.1);
     color:white;
 }
-/* ===========================
-   Mobile Responsive
-=========================== */
+/* ==========================
+   MOBILE
+========================== */
 
-@media (max-width: 768px){
+@media (max-width:768px){
 
 .hero{
     padding:80px 20px;
@@ -384,8 +379,7 @@ ABOUT
     font-size:30px;
 }
 
-.navbar-brand img{
-    .logo-img{
+.logo-img{
     height:55px;
 }
 
@@ -395,7 +389,6 @@ ABOUT
 
 .logo-text p{
     font-size:11px;
-}
 }
 
 .btn-lg{
@@ -416,10 +409,11 @@ iframe{
     height:300px;
 }
 
-.whatsapp{
+.whatsapp-float{
     width:55px;
     height:55px;
-    font-size:30px;
+    font-size:28px;
+    line-height:55px;
     bottom:20px;
     right:20px;
 }

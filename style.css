@@ -117,6 +117,38 @@ font-size:clamp(2.5rem,5vw,4.8rem);
     font-size:18px;
 
 }
+.hero-box{
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(8px);
+    border:1px solid rgba(255,255,255,.2);
+    border-radius:20px;
+    padding:25px;
+    transition:.35s;
+    height:100%;
+}
+
+.hero-box:hover{
+    transform:translateY(-8px);
+    background:rgba(255,255,255,.18);
+}
+
+.hero-box i{
+    font-size:40px;
+    color:#FFD54F;
+    margin-bottom:15px;
+}
+
+.hero-box h4{
+    color:#fff;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.hero-box p{
+    color:#eee;
+    margin:0;
+    font-size:16px;
+}
 
 /* ==========================
    SERVICES

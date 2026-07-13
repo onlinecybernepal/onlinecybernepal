@@ -629,10 +629,10 @@ box-shadow:0 0 0 .2rem rgba(215,38,56,.25)!important;
 }
 
 .contact-card p{
-
     color:#666;
-
     margin:0;
+    word-break:break-word;
+}
 
 }
 .service-card,
@@ -648,4 +648,8 @@ img{
 
 .logo-img{
     border-radius:12px;
+}
+.contact-card{
+    max-width:350px;
+    margin:auto;
 }

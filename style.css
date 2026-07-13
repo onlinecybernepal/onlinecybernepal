@@ -322,10 +322,9 @@ ABOUT
     line-height:1.9;
 }
 
-.about-icon{
-    font-size:220px;
-    color:#0B2D5B;
-    opacity:.12;
+.about-img{
+    max-width:450px;
+    width:100%;
 }
 /* Service Search */
 

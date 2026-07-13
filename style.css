@@ -524,4 +524,42 @@ border-color:#D72638!important;
 box-shadow:0 0 0 .2rem rgba(215,38,56,.25)!important;
 
 }
+/* Request Form */
 
+.request-card{
+
+    background:#fff;
+
+    padding:45px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.request-card label{
+
+    font-weight:600;
+
+    color:#0B2D5B;
+
+}
+
+.request-card .form-control,
+
+.request-card .form-select{
+
+    border-radius:12px;
+
+    padding:14px;
+
+    border:1px solid #ddd;
+
+}
+
+.request-card textarea{
+
+    resize:none;
+
+}

@@ -21,9 +21,10 @@ html{
 ========================== */
 
 .navbar{
-    padding:15px 0;
-    transition:.3s;
+    padding:12px 0;
     background:#fff;
+    transition:.3s;
+    box-shadow:0 5px 20px rgba(0,0,0,.06);
 }
 
 .logo-img{
@@ -66,33 +67,34 @@ html{
 }
 
 .btn:hover{
-    transform:translateY(-3px);
-    box-shadow:0 12px 25px rgba(0,0,0,.25);
+    transform:translateY(-4px);
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
 }
-
 .hero{
     min-height:100vh;
     display:flex;
-    justify-content:center;
     align-items:center;
+    justify-content:center;
     color:#fff;
+    text-align:center;
+    padding:120px 0;
 
-    background-image:
-        linear-gradient(rgba(11,45,91,.75), rgba(11,45,91,.75)),
-        url("./hero.jpg");
-
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+    background:
+    linear-gradient(rgba(11,45,91,.82),rgba(11,45,91,.82)),
+    url("hero.jpg") center/cover no-repeat;
 }
 
-  .hero h1{
-font-size:clamp(2.5rem,5vw,4.8rem);
+.hero h1{
+    font-size:clamp(2.8rem,5vw,5rem);
+    font-weight:800;
+    line-height:1.15;
+    margin-bottom:25px;
 }
 
 .hero p{
-
-    font-size:22px;
+    font-size:20px;
+    line-height:1.8;
+    opacity:.95;
 
     max-width:900px;
 
@@ -169,16 +171,18 @@ font-size:clamp(2.5rem,5vw,4.8rem);
 
 .service-card{
     background:#fff;
-    border-radius:18px;
-    padding:35px 30px;
+    border-radius:20px;
+    padding:40px 30px;
     text-align:center;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
     transition:.35s;
     height:100%;
+    border:1px solid transparent;
 }
-
 .service-card:hover{
-   transform:translateY(-10px) scale(1.02);
+    transform:translateY(-12px);
+    border-color:#D72638;
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
 }
 
 .service-card .icon{
@@ -216,11 +220,12 @@ ALL SERVICES
     background:white;
 }
 
-.section-subtitle{
+.section-title{
     text-align:center;
-    color:#666;
-    margin-top:-20px;
-    margin-bottom:50px;
+    font-size:44px;
+    font-weight:800;
+    color:#0B2D5B;
+    margin-bottom:18px;
 }
 
 .category-card{
@@ -629,4 +634,18 @@ box-shadow:0 0 0 .2rem rgba(215,38,56,.25)!important;
 
     margin:0;
 
+}
+.service-card,
+.category-card,
+.why-card,
+.contact-card{
+    transition:all .35s ease;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.logo-img{
+    border-radius:12px;
 }
